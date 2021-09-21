@@ -1,0 +1,13 @@
+:root {
+    --grey-color:  rgba(136, 136, 136, 1);
+    --background-color: #000;
+    --text-color: #222222;
+    --textEH-color:#2daaed;
+    
+    
+}
+
+.Wrap{
+    max-width: 1170px;
+    margin: 0 auto;
+}
