@@ -45,24 +45,40 @@
 }
 
 .navbar-li-song:hover .subnav-song{
-     display: block; 
+    display: block; 
 }
 
+
 .subnav-song--list-item ul li:hover{
+    background-color: rgb(148, 216, 116);
+}
+.subnav-charts li:hover{
     background-color: rgb(148, 216, 116);
 }
 .subnav-playlist--list-item ul li:hover{
     background-color: rgb(148, 216, 116);
 }
+.subnav-collection--list-item ul li:hover{
+    background-color: rgb(148, 216, 116);
+}
 .navbar-li-playlist:hover .subnav-playlist{
+    display: block; 
+}
+.navbar-li-collection:hover .subnav-collection{
+    display: block; 
+}
+.navbar-li-charts:hover .subnav-charts{
     display: block; 
 }
 
 
-.navbar-li-charts:hover a{
+
+.navbar-li-charts:hover>a{
     background-color: rgb(148, 216, 116);
+    
 }
-.navbar-li-collection:hover a{
+
+.navbar-li-collection:hover>a{
     background-color: rgb(148, 216, 116);
 }
 .navbar-li-playlist:hover>a{
@@ -138,7 +154,7 @@
     box-shadow: 0 3px 8px rgb(3 3 3 / 26%);
     display: none;
 }
-/* .subnav-playlist::before {
+.subnav-playlist::before {
     content: "";
     width: 90px;
     left: 0;
@@ -146,7 +162,45 @@
     border-color:transparent;
     position: absolute;
     top: -6px;
-} */
+}
+
+.subnav-charts{
+    position: absolute;
+    top: 42px;
+    border: 1px solid #d6c4c4;
+    box-shadow: 0 3px 8px rgb(3 3 3 / 26%);
+    display:none;
+
+}
+.subnav-charts::before {
+    content: "";
+    width: 90px;
+    left: 0;
+    height: 10px;
+    border-color:transparent;
+    position: absolute;
+    top: -6px;
+}
+
+.subnav-collection{
+    position: absolute;
+    width: 550px;
+    right: 444px;
+    top:42px;
+    padding-left: 20px;
+    border: 1px solid #d6c4c4;
+    box-shadow: 0 3px 8px rgb(3 3 3 / 26%);
+    display: none;
+}
+.subnav-collection::before {
+    content: "";
+    width: 90px;
+    left: 0;
+    height: 10px;
+    border-color:transparent;
+    position: absolute;
+    top: -6px;
+}
 
 .subnav-song li{
     list-style: none;
@@ -154,24 +208,24 @@
 .subnav-playlist li{
     list-style: none;
 }
+.subnav-collection li{
+    list-style: none;
+}
+.subnav-charts li{
+    list-style: none;
+    margin: 5px 20px;
+}
 
+.subnav-collection--list-item,
 .subnav-song--list-item, 
 .subnav-playlist--list-item{
+    margin: 10px;
     display: flex;
     
 }
-.subnav-charts{
 
-    display: none;
-}
-.subnav-collection{
 
-    display: none;
-}
-.subnav-collection{
 
-    display: none;
-}
 .subnav-artist{
 
     display: none; 
