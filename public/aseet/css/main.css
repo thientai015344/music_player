@@ -1,12 +1,12 @@
-.hover{
-    display:block !important;
-}
+
 .allNavbar{
     width:100%;
     border: 1px solid #ccc;
     height: 44px;
     position: fixed;
+    background-color:#fff;
     top: 0;
+    z-index: 1;
 }
 .nav-logo{
     margin-right: 54px;
@@ -14,7 +14,8 @@
 .navbar1{
     display: flex;
     align-items: center;
-    height:100%
+    height:100%;
+   
 }
 #nav-listMenu{
     width: 100%;
@@ -39,6 +40,7 @@
     color: var(--text-color) ;
     
 }
+
 .navbar-li-song:hover>a{
    background-color: rgb(148, 216, 116);
 
@@ -127,12 +129,14 @@
 .subnav-song{
     position: absolute;
     width: 550px;
-    left: 354px;
+    left: 348px;
     top:42px;
     padding-left: 20px;
+    background-color: #fff;
     border: 1px solid #d6c4c4;
     box-shadow: 0 3px 8px rgb(3 3 3 / 26%);
     display: none;
+    z-index: 99999;
 }
 .subnav-song::before {
     content: "";
@@ -147,9 +151,10 @@
 .subnav-playlist{
     position: absolute;
     width: 550px;
-    right: 352px;
+    right: 344px;
     top:42px;
     padding-left: 20px;
+    background-color: #fff;
     border: 1px solid #d6c4c4;
     box-shadow: 0 3px 8px rgb(3 3 3 / 26%);
     display: none;
@@ -167,6 +172,7 @@
 .subnav-charts{
     position: absolute;
     top: 42px;
+    background-color: #fff;
     border: 1px solid #d6c4c4;
     box-shadow: 0 3px 8px rgb(3 3 3 / 26%);
     display:none;
@@ -185,8 +191,9 @@
 .subnav-collection{
     position: absolute;
     width: 550px;
-    right: 444px;
+    right: 436px;
     top:42px;
+    background-color: #fff;
     padding-left: 20px;
     border: 1px solid #d6c4c4;
     box-shadow: 0 3px 8px rgb(3 3 3 / 26%);
@@ -224,9 +231,37 @@
     
 }
 
-
-
 .subnav-artist{
 
     display: none; 
 }
+
+/* ----------modal------------ */
+.modal{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.container{
+    
+    margin: 30px 0 ;
+    width: 100%;
+    height : 1200px;
+    z-index: 1;
+
+    
+}
+
+
+
+.modal1_content h1
+{
+  color:red
+}
+
+/* ----------modal------------ */
