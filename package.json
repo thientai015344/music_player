@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/thientai015344/music_player#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"

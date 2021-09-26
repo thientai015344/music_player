@@ -6,7 +6,6 @@
     position: fixed;
     background-color:#fff;
     top: 0;
-    z-index: 1;
 }
 .nav-logo{
     margin-right: 54px;
@@ -236,7 +235,7 @@
     display: none; 
 }
 
-/* ----------modal------------ */
+/* ----------container------------ */
 
 
 .container{
@@ -249,11 +248,12 @@
     
 }
 
-
-
-.modal1_content h1
-{
-  color:red
+.img-slide-top{
+    display: flex;
+    margin: 0 auto;
 }
 
-/* ----------modal------------ */
+
+
+
+/* ----------container------------ */
